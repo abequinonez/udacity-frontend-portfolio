@@ -23,8 +23,8 @@ body {
 }
 
 h3 {
-	margin-top: 0;
-	padding-top: 0;
+	margin-top: 0.6em;
+	/*padding-top: 0;*/
 }
 
 hr {
@@ -102,17 +102,7 @@ hr {
 
 
 
-@media screen and (max-width: 500px) {
-	/* Stack Overflow solution: https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element; */
-	.word-break {
-		word-spacing: 500px;
-		line-height: 1.5em;
-	}
 
-	.splash-text {
-		top: 2%;
-	}
-}
 
 @media screen and (max-width: 767px) {
 
@@ -136,23 +126,29 @@ hr {
 	.splash-btn {
 		font-size: 1.2em;
 	}
+}
 
+@media screen and (max-width: 500px) {
+	/* Stack Overflow solution: https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element; */
+	.word-break {
+		word-spacing: 500px;
+		line-height: 1.5em;
+	}
 
-/*  .hero {
-    order: 0;
-    width: 60%;
-  }
-  .weather {
-    order: 1;
-    width: 40%;
-  }*/
-
-
+	.splash-text {
+		top: 2%;
+	}
 }
 
 @media screen and (min-width: 350px) and (max-width: 400px) {
 	.splash-text {
 		top: 15%;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.title-super {
+		font-size: 3.4em;
 	}
 }
 
