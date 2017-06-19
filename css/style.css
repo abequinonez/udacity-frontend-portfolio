@@ -57,8 +57,20 @@ hr {
 	width: 20%;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+	margin-bottom: 1.3em;
 
 
+}
+
+.splash-text h2 {
+	padding: 0 0.6em;
+	/*padding-bottom: 0;*/
+	/*padding-top: 0;*/
+
+
+	margin-top: 0;
+	margin-bottom: 0.2em;
+	line-height: 1.4em;
 }
 
 .splash-image {
@@ -88,11 +100,41 @@ hr {
 	background: white;
 }
 
+
+
+@media screen and (max-width: 500px) {
+	/* Stack Overflow solution: https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element; */
+	.word-break {
+		word-spacing: 500px;
+		line-height: 1.5em;
+	}
+
+	.splash-text {
+		top: 2%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
 @media screen and (max-width: 991px) {
 	header, 
 	.name-title,
 	.featured-work {
 		text-align: center;
+	}
+
+	.splash-text h1 {
+		font-size: 2em;
+	}
+
+	.splash-text h2 {
+		font-size: 1.8em;
+	}
+
+	.splash-btn {
+		font-size: 1.2em;
 	}
 
 
@@ -106,6 +148,12 @@ hr {
   }*/
 
 
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+	.splash-text {
+		top: 15%;
+	}
 }
 
 /*.bg-image-container {
