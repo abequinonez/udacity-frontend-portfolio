@@ -1,0 +1,156 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #676858;
+	font-weight: 300;
+	padding-top: 50px;
+}
+
+.text-muted {
+	/*color: #bcbbbb;*/
+	/*color: #7d97ad;*/
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 4em;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+h3 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+hr {
+	border-top: 1px dashed #8c8b8b;
+}
+
+.splash-text {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	color: white;
+	text-shadow: 0px 3px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.splash-text h1 {
+	font-weight: 700;
+	font-size: 3em;
+	display: inline-block;
+
+	background: rgba(0, 0, 0, 0.7);
+	padding: 0.2em;
+	margin: 0;
+}
+
+.splash-text hr {
+	width: 20%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+
+
+}
+
+.splash-image {
+	position: relative;
+	background-color: #000;
+}
+
+.splash-image img {
+	opacity: 0.5;
+	-webkit-filter: saturate(1.7) contrast(1);
+	filter: saturate(1.7) contrast(1);
+}
+
+.splash-btn {
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	border: 1px solid white;
+/*	text-shadow: 0px 3px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);*/
+	/*font-weight: 700;*/
+	font-size: 1.5em;
+	margin-top: 0.8em;
+}
+
+.splash-btn:hover {
+	background: white;
+}
+
+@media screen and (max-width: 991px) {
+	header, 
+	.name-title,
+	.featured-work {
+		text-align: center;
+	}
+
+
+/*  .hero {
+    order: 0;
+    width: 60%;
+  }
+  .weather {
+    order: 1;
+    width: 40%;
+  }*/
+
+
+}
+
+/*.bg-image-container {
+	background-image: url(../img/succulent_large_1x.jpg);
+	background-image: 
+		-webkit-image-set(
+			"../img/succulent_large_1x.jpg" 1x,
+			"../img/succulent_large_2x.jpg" 2x,
+		);
+	background-image:
+		image-set(
+			"../img/succulent_large_1x.jpg" 1x,
+			"../img/succulent_large_2x.jpg" 2x,
+		);
+	background-size: cover;
+}
+
+@media (max-width: 450px) {
+	.bg-image-container {
+		background-image: url(../img/succulent_small_1x.jpg);
+		background-image:
+			-webkit-image-set(
+				url("../img/succulent_small_1x.jpg") 1x,
+				url("../img/succulent_small_2x.jpg") 2x,
+			);
+		background-image:
+			image-set(
+				url("../img/succulent_small_1x.jpg") 1x,
+				url("../img/succulent_small_2x.jpg") 2x,
+			);
+	}
+}
+
+@media (min-width: 451px) and (max-width: 860px) {
+	.bg-image-container {
+		background-image: url(../img/succulent_medium_1x.jpg);
+		background-image:
+			-webkit-image-set(
+				"../img/succulent_medium_1x.jpg" 1x,
+				"../img/succulent_medium_2x.jpg" 2x,
+			);
+		background-image:
+			image-set(
+				"../img/succulent_medium_1x.jpg" 1x,
+				"../img/succulent_medium_2x.jpg" 2x,
+			);
+	}
+}*/
