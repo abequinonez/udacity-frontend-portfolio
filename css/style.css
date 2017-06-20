@@ -109,23 +109,23 @@ hr {
 	line-height: 0;
 }
 
-.media-icons li a {
+.media-icons .fa{
 	color: #676858;
 }
 
-.media-icons li a .fa-facebook:hover {
+.media-icons .fa-facebook:hover {
 	color: #3b5998;
 }
 
-.media-icons li a .fa-twitter:hover {
+.media-icons .fa-twitter:hover {
 	color: #00b6f1;
 }
 
-.media-icons li a .fa-github:hover {
+.media-icons .fa-github:hover {
 	color: #6cc644;
 }
 
-.media-icons li a .fa-linkedin:hover {
+.media-icons .fa-linkedin:hover {
 	color: #00a0dc;
 }
 
