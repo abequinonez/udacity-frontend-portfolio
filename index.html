@@ -13,11 +13,11 @@
 
 </head>
 <body>
-
+	<!-- Start of Bootstrap navbar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
@@ -25,9 +25,8 @@
 		      </button>
 				<a href="#" class="navbar-brand"><i class="fa fa-home" aria-hidden="true"></i>&nbsp; AQ</a>
 			</div>
-			<div class="collapse navbar-collapse" id="bs-nav-demo">
+			<div class="collapse navbar-collapse" id="navbar-links">
 			<ul class="nav navbar-nav">
-				<!-- <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp; Top</a></li> -->
 				<li><a href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp; Featured Work</a></li>
 				<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; Contact</a></li>
 			</ul>
@@ -38,8 +37,12 @@
 			</div>
 		</div>
 	</nav>
+	<!-- End of Bootstrap navbar -->
 
+	<!-- Start of main container. All visible content (except navbar) goes here. -->
 	<div class="container">
+
+		<!-- Start of header. Contains logo, name, and title. -->
 		<header class="row">
 			<div class="col-md-3">
 				<picture>
@@ -52,6 +55,8 @@
 				<h3>Web Developer</h3>
 			</div>
 		</header>
+		<!-- End of header -->
+
 		<div class="row">
 			<div class="col-md-12">
 				<hr>
@@ -60,6 +65,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="splash-image">
+
+					<!-- Splash image with multiple source elements for many viewport sizes and resolutions. -->
 					<picture>
 	      				<source media="(max-width: 240px)" srcset="img/beach_small_1x.jpg 1x, img/beach_small_2x.jpg 2x">
 	      				<source media="(max-width: 400px)" srcset="img/beach_xxsmall_1x_alt.jpg 1x, img/beach_xxsmall_2x_alt.jpg 2x">
@@ -72,6 +79,8 @@
 
 	      				<img src="img/beach_large_1x.jpg" srcset="img/beach_large_1x.jpg 1x, img/beach_large_2x.jpg 2x" class="img-responsive center-block" alt="Main image">
 	    			</picture>
+
+	    			<!-- splash-text div overlays the splash image -->
 	    			<div class="splash-text">
 	    				<h1 class="word-break">California-Based. Globally-Minded.</h1>
 	    				<hr>
@@ -79,19 +88,13 @@
 	    				<button class="btn btn-default btn-lg splash-btn">Take a look</button>
     				</div>
     			</div>
-
-    			<!-- <div class="bg-image-container">
-    				<p>Text</p>
-    			</div> -->
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="text-muted featured-work">Featured Work</h2>
+				<h2 class="featured-work">Featured Work</h2>
 			</div>
 		</div>
-
 		<div class="row text-center">
 			<div class="col-md-4">
 				<img src="img/555x300" class="img-responsive center-block" alt="App image" data-toggle="modal" data-target="#project1">
@@ -109,29 +112,30 @@
 				<p><a href="http://github.com/">Link to project</a></p>
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col-md-12">
 				<hr>
 			</div>
 		</div>
+
+		<!-- Start of footer. Contains social media icons and splash image credit. -->
 		<footer class="row">
 			<div class="col-md-6">
-			<!-- 	<p>
-					Find me on: -->
-					<ul class="media-icons">
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-					</ul> 
-				<!-- </p> -->
+				<ul class="media-icons">
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
 			</div>
 			<div class="col-md-6 text-right">
 				<p>Splash photo by <a href="https://unsplash.com/photos/2FFh56Q9jWs" target="_blank">Tim Marshall</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
 			</div>
 		</footer>
+		<!-- End of footer -->
 
 	</div>
+	<!-- End of main container -->
+
 </body>
 </html>
