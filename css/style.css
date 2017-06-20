@@ -100,6 +100,19 @@ hr {
 	background: white;
 }
 
+.media-icons {
+	/*display: inline;*/
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.media-icons li {
+	display: inline;
+	list-style-type: none;
+	font-size: 1.5em;
+	line-height: 0;
+	padding-right: 5px;
+}
 
 
 
@@ -112,6 +125,7 @@ hr {
 	header, 
 	.name-title,
 	.featured-work,
+	.media-icons,
 	p {
 		text-align: center;
 	}
