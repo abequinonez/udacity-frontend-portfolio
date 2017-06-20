@@ -8,9 +8,14 @@ body {
 	font-weight: 300;
 }
 
-.nav li, p {
+.nav-link, 
+p {
 	font-size: 1.1em;
 }
+
+/*.nav li, p {
+	font-size: 1.1em;
+}*/
 
 .title-logo {
 	margin-top: 20px;
@@ -36,13 +41,13 @@ hr {
 	Splash image and text overlay implemented with help from
 	CSS-Tricks and Stack Overflow.
 */
-.splash-image {
+.splash {
 	position: relative;
 	background-color: #000;
 }
 
 /* CSS filter use learned from CSS-Tricks */
-.splash-image img {
+.splash-image {
 	opacity: 0.5;
 	-webkit-filter: saturate(1.7) contrast(1);
 	filter: saturate(1.7) contrast(1);
@@ -60,7 +65,7 @@ hr {
 				 0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.splash-text h1 {
+.splash-heading {
 	display: inline-block;
 	padding: 0.2em;
 	margin: 0;
@@ -69,14 +74,14 @@ hr {
 	background: rgba(0, 0, 0, 0.7);
 }
 
-.splash-text hr {
+.splash-line {
 	width: 20%;
 	margin-bottom: 1.3em;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.splash-text h2 {
+.splash-sub-heading {
 	padding: 0 0.6em;
 	margin-top: 0;
 	margin-bottom: 0.2em;
@@ -101,7 +106,7 @@ hr {
 	margin-bottom: 10px;
 }
 
-.media-icons li {
+.media-icon-item {
 	display: inline;
 	list-style-type: none;
 	padding-right: 7px;
@@ -109,23 +114,23 @@ hr {
 	line-height: 0;
 }
 
-.media-icons .fa{
+.media-icon-item .fa{
 	color: #676858;
 }
 
-.media-icons .fa-facebook:hover {
+.media-icon-item .fa-facebook:hover {
 	color: #3b5998;
 }
 
-.media-icons .fa-twitter:hover {
+.media-icon-item .fa-twitter:hover {
 	color: #00b6f1;
 }
 
-.media-icons .fa-github:hover {
+.media-icon-item .fa-github:hover {
 	color: #6cc644;
 }
 
-.media-icons .fa-linkedin:hover {
+.media-icon-item .fa-linkedin:hover {
 	color: #00a0dc;
 }
 
@@ -138,11 +143,11 @@ hr {
 		text-align: center;
 	}
 
-	.splash-text h1 {
+	.splash-heading {
 		font-size: 2em;
 	}
 
-	.splash-text h2 {
+	.splash-sub-heading {
 		font-size: 1.8em;
 	}
 
