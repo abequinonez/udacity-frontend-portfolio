@@ -119,23 +119,23 @@ hr {
 	padding-right: 6px;
 }
 
-.media-icons a {
+.media-icons li a {
 	color: #676858;
 }
 
-.media-icons a .fa-facebook:hover {
+.media-icons li a .fa-facebook:hover {
 	color: #3b5998;
 }
 
-.media-icons a .fa-twitter:hover {
+.media-icons li a .fa-twitter:hover {
 	color: #00b6f1;
 }
 
-.media-icons a .fa-github:hover {
+.media-icons li a .fa-github:hover {
 	color: #6cc644;
 }
 
-.media-icons a .fa-linkedin:hover {
+.media-icons li a .fa-linkedin:hover {
 	color: #00a0dc;
 }
 
