@@ -116,15 +116,35 @@ hr {
 	list-style-type: none;
 	font-size: 1.5em;
 	line-height: 0;
-	padding-right: 5px;
+	padding-right: 6px;
+}
+
+.media-icons a {
+	color: #676858;
+}
+
+.media-icons a .fa-facebook:hover {
+	color: #3b5998;
+}
+
+.media-icons a .fa-twitter:hover {
+	color: #00b6f1;
+}
+
+.media-icons a .fa-github:hover {
+	color: #6cc644;
+}
+
+.media-icons a .fa-linkedin:hover {
+	color: #00a0dc;
 }
 
 
 
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
 
-}
+}*/
 
 @media screen and (max-width: 991px) {
 	header, 
