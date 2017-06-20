@@ -5,6 +5,10 @@ body {
 	padding-top: 50px;
 }
 
+.nav li, p {
+	font-size: 1.1em;
+}
+
 .text-muted {
 	/*color: #bcbbbb;*/
 	/*color: #7d97ad;*/
@@ -103,6 +107,7 @@ hr {
 .media-icons {
 	/*display: inline;*/
 	padding: 0;
+	margin-top: 2px;
 	margin-bottom: 10px;
 }
 
