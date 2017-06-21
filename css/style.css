@@ -8,15 +8,15 @@ body {
 	font-weight: 300;
 }
 
-.nav-link, 
+
+/* Navbar */
+.nav-link,
 p {
 	font-size: 1.1em;
 }
 
-/*.nav li, p {
-	font-size: 1.1em;
-}*/
 
+/* Header */
 .title-logo {
 	margin-top: 20px;
 }
@@ -37,6 +37,8 @@ hr {
 	border-top: 2px dashed #8c8b8b;
 }
 
+
+/* Splash and Content */
 /*
 	Splash image and text overlay implemented with help from
 	CSS-Tricks and Stack Overflow.
@@ -60,9 +62,9 @@ hr {
 	left: 0;
 	text-align: center;
 	color: white;
-	text-shadow: 0px 3px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4),
+				 0px 8px 13px rgba(0, 0, 0, 0.1),
+				 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .splash-heading {
@@ -78,7 +80,7 @@ hr {
 	width: 20%;
 	margin-bottom: 1.3em;
 	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .splash-sub-heading {
@@ -100,6 +102,61 @@ hr {
 	background: white;
 }
 
+
+/*.project-bottom-margin {
+	margin-bottom: 25px;
+}*/
+
+/*.project:last-of-type {
+	margin-bottom: 0;
+}*/
+
+.project-image {
+	border: 1px solid #000;
+	opacity: 0.8;
+/*	-webkit-filter: blur(1px);
+	filter: blur(1px);*/
+	/*-webkit-filter: saturate(1.7) contrast(1);
+	filter: saturate(1.7) contrast(1);*/
+}
+
+.project-image:hover {
+	opacity: 1;
+}
+
+.project-title {
+	margin-top: 0.4em;
+	word-spacing: 3px;
+}
+
+.project-link-list {
+	padding: 0;
+	margin-top: 0;
+	/*margin-bottom: 10px;*/
+}
+
+.project-link {
+	display: inline;
+	list-style-type: none;
+	/*padding: 0 1px;*/
+	font-size: 1.1em;
+	line-height: 0;
+}
+
+/*.project-link:first-of-type {
+	border-right: 1px solid #000;
+}*/
+/* 
+	Vertical bar separator solution learned from Stack Overflow.
+	Separates links (when applicable) on project listings.
+ */
+.project-link:not(:first-child):before {
+	content: "| ";
+	padding: 0 10px;
+}
+
+
+/* Footer */
 .media-icons {
 	padding: 0;
 	margin-top: 2px;
@@ -118,12 +175,8 @@ hr {
 	color: #676858;
 }
 
-.media-icon-item .fa-facebook:hover {
-	color: #3b5998;
-}
-
-.media-icon-item .fa-twitter:hover {
-	color: #00b6f1;
+.media-icon-item .fa-envelope-o:hover {
+	color: #000;
 }
 
 .media-icon-item .fa-github:hover {
@@ -134,8 +187,14 @@ hr {
 	color: #00a0dc;
 }
 
+.media-icon-item .fa-twitter:hover {
+	color: #00b6f1;
+}
+
+
+/* Media Queries */
 @media screen and (max-width: 991px) {
-	header, 
+	header,
 	.name-title,
 	.featured-work,
 	.media-icons,
@@ -153,6 +212,10 @@ hr {
 
 	.splash-btn {
 		font-size: 1.2em;
+	}
+
+	.project-bottom-margin {
+		margin-bottom: 25px;
 	}
 }
 
@@ -182,7 +245,7 @@ hr {
 
 /*.bg-image-container {
 	background-image: url(../img/succulent_large_1x.jpg);
-	background-image: 
+	background-image:
 		-webkit-image-set(
 			"../img/succulent_large_1x.jpg" 1x,
 			"../img/succulent_large_2x.jpg" 2x,
