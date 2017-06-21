@@ -4,6 +4,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Abraham's Portfolio</title>
+	<!-- The following two scripts implement a responsive image polyfill for browsers that
+	do not support the picture element and associated features. -->
+	<script>
+		// Picture element HTML5 shiv. Since picturefill loads asynchronously, this shiv is
+		// required for older browsers to recognize picture elements if they are encountered 
+		// before picturefill has finished loading.
+		document.createElement("picture");
+	</script>
+	<script src="js/picturefill.min.js" async></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,700" rel="stylesheet">
@@ -126,7 +135,7 @@
 			<div class="col-md-4">
 				<!-- <div class="project"> -->
 					<img src="img/tournament_1x.png" srcset="img/tournament_1x.png 1x, img/tournament_2x.png 2x" class="img-responsive center-block project-image" alt="App image" data-toggle="modal" data-target="#project3">
-					<h3 class="project-title text-uppercase">Tournament Results</h3>
+					<h3 class="project-title">Tournament Results</h3>
 					<!-- <p><a href="http://github.com/">Link to project</a></p> -->
 					<p>Python, PostgreSQL</p>
 					<ul class="project-link-list">
