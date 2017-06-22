@@ -108,7 +108,7 @@ hr {
 
 /* Featured Work */
 .project-bottom-margin {
-	margin-bottom: 28px;
+	margin-bottom: 27px;
 }
 
 /*.project:last-of-type {
@@ -134,10 +134,10 @@ hr {
 	word-spacing: 3px;
 }
 
-/*.project-title,
+.project-title,
 .project-tech {
 	margin-bottom: 8px;
-}*/
+}
 
 .project-link-list {
 	padding: 0;
