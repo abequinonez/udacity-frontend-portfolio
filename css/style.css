@@ -8,6 +8,15 @@ body {
 	font-weight: 300;
 }
 
+/* 
+	The following style rule is for inline elements that serve as in-page anchors.
+	Without this rule, the intended destination would be covered by the navbar.
+	Developed with help from Stack Overflow.
+*/
+.anchor:target {
+	padding-top: 50px;
+}
+
 
 /* Navbar */
 .nav-link,
@@ -256,6 +265,10 @@ hr {
 		font-size: 3.4em;
 	}
 }
+
+
+
+
 
 /*.bg-image-container {
 	background-image: url(../img/succulent_large_1x.jpg);
