@@ -48,7 +48,7 @@
 	</nav>
 	<!-- End of Bootstrap navbar -->
 
-	<!-- Start of main container. All visible content (except navbar) goes here. -->
+	<!-- Start of Bootstrap main container. All visible content (except navbar) goes here. -->
 	<div class="container">
 		<!-- Start of header. Contains logo, name, and title. -->
 		<header class="row">
@@ -80,7 +80,7 @@
 	      				<source media="(max-width: 500px)" srcset="img/beach_xsmall_1x.jpg 1x, img/beach_xsmall_2x.jpg 2x">
 	      				<source media="(max-width: 610px)" srcset="img/beach_small_1x.jpg 1x, img/beach_small_2x.jpg 2x">
 	      				<source media="(max-width: 767px)" srcset="img/beach_medium_1x.jpg 1x, img/beach_medium_2x.jpg 2x">
-	      				<img src="img/beach_large_1x.jpg" srcset="img/beach_large_1x.jpg 1x, img/beach_large_2x.jpg 2x" class="img-responsive center-block splash-image" alt="Main image">
+	      				<img src="img/beach_large_1x.jpg" srcset="img/beach_large_1x.jpg 1x, img/beach_large_2x.jpg 2x" class="img-responsive center-block splash-image" alt="Splash image of a California beach">
 	    			</picture>
 
 	    			<!-- splash-text div overlays splash-image. Contains splash-heading, splash-line,
@@ -96,14 +96,17 @@
 
 			</div>
 		</div>
-		<div class="row" id="featured">
+		<div class="row">
 			<div class="col-md-12">
-				<h2 class="featured-work">Featured Work</h2>
+				 <!-- The anchor span serves as an in-page anchor. Solution developed with help from Stack Overflow. -->
+				<h2 class="featured-work"><span class="anchor" id="featured">Featured Work</span></h2>
 			</div>
 		</div>
+
+		<!-- Start of featured work project listings -->
 		<div class="row text-center">
 			<div class="col-md-4 project-bottom-margin">
-				<img src="img/world_1x.png" srcset="img/world_1x.png 1x, img/world_2x.png 2x" class="img-responsive center-block project-image" alt="App image" data-toggle="modal" data-target="#project1">
+				<img src="img/world_1x.png" srcset="img/world_1x.png 1x, img/world_2x.png 2x" class="img-responsive center-block project-image" alt="Project image" data-toggle="modal" data-target="#project1">
 				<h3 class="project-title">World City Info Page</h3>
 				<p class="project-tech">HTML, CSS, Bootstrap, PHP, MySQL</p>
 				<ul class="project-link-list">
@@ -112,7 +115,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4 project-bottom-margin">
-				<img src="img/ttt_1x.png" srcset="img/ttt_1x.png 1x, img/ttt_2x.png 2x" class="img-responsive center-block project-image" alt="App image" data-toggle="modal" data-target="#project2">
+				<img src="img/ttt_1x.png" srcset="img/ttt_1x.png 1x, img/ttt_2x.png 2x" class="img-responsive center-block project-image" alt="Project image" data-toggle="modal" data-target="#project2">
 				<h3 class="project-title">GUI Tic-Tac-Toe</h3>
 				<p class="project-tech">Java, Swing</p>
 				<ul class="project-link-list">
@@ -120,7 +123,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4 project-bottom-margin">
-				<img src="img/tournament_1x.png" srcset="img/tournament_1x.png 1x, img/tournament_2x.png 2x" class="img-responsive center-block project-image" alt="App image" data-toggle="modal" data-target="#project3">
+				<img src="img/tournament_1x.png" srcset="img/tournament_1x.png 1x, img/tournament_2x.png 2x" class="img-responsive center-block project-image" alt="Project image" data-toggle="modal" data-target="#project3">
 				<h3 class="project-title">Tournament Results</h3>
 				<p class="project-tech">Python, PostgreSQL</p>
 				<ul class="project-link-list">
@@ -130,7 +133,7 @@
 		</div>
 		<div class="row text-center">
 			<div class="col-md-4 project-bottom-margin">
-				<img src="img/quiz_1x.png" srcset="img/quiz_1x.png 1x, img/quiz_2x.png 2x" class="img-responsive center-block project-image" alt="App image" data-toggle="modal" data-target="#project2">
+				<img src="img/quiz_1x.png" srcset="img/quiz_1x.png 1x, img/quiz_2x.png 2x" class="img-responsive center-block project-image" alt="Project image" data-toggle="modal" data-target="#project2">
 				<h3 class="project-title">GUI Quiz Tutor</h3>
 				<p class="project-tech">Java, Swing</p>
 				<ul class="project-link-list">
@@ -138,7 +141,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4 project-bottom-margin">
-				<img src="img/movie_1x.jpg" srcset="img/movie_1x.jpg 1x, img/movie_2x.jpg 2x" class="img-responsive center-block project-image" alt="App image" data-toggle="modal" data-target="#project1">
+				<img src="img/movie_1x.jpg" srcset="img/movie_1x.jpg 1x, img/movie_2x.jpg 2x" class="img-responsive center-block project-image" alt="Project image" data-toggle="modal" data-target="#project1">
 				<h3 class="project-title">Movie Website</h3>
 				<p class="project-tech">Python</p>
 				<ul class="project-link-list">
@@ -147,7 +150,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4 project-bottom-margin">
-				<img src="img/notes_1x.png" srcset="img/notes_1x.png 1x, img/notes_2x.png 2x" class="img-responsive center-block project-image" alt="App image" data-toggle="modal" data-target="#project3">
+				<img src="img/notes_1x.png" srcset="img/notes_1x.png 1x, img/notes_2x.png 2x" class="img-responsive center-block project-image" alt="Project image" data-toggle="modal" data-target="#project3">
 				<h3 class="project-title">Lesson Notes Page</h3>
 				<p class="project-tech">HTML, CSS</p>
 				<ul class="project-link-list">
@@ -156,6 +159,8 @@
 				</ul>
 			</div>
 		</div>
+		<!-- End of featured work project listings -->
+
 		<div class="row">
 			<div class="col-md-12">
 				<hr class="bottom-line">
@@ -179,7 +184,7 @@
 		<!-- End of footer -->
 
 	</div>
-	<!-- End of main container -->
+	<!-- End of Bootstrap main container -->
 
 </body>
 </html>
