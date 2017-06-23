@@ -8,7 +8,7 @@ body {
 	font-weight: 300;
 }
 
-/* 
+/*
 	The following style rule is for inline elements that serve as in-page anchors.
 	Without this rule, the intended destination would be covered by the navbar.
 	Developed with help from Stack Overflow.
@@ -61,7 +61,7 @@ hr {
 
 /* CSS filter use learned from CSS-Tricks */
 .splash-image {
-	opacity: 0.45;
+	opacity: 0.5;
 	-webkit-filter: saturate(1.7) contrast(1);
 	filter: saturate(1.7) contrast(1);
 }
@@ -120,17 +120,9 @@ hr {
 	margin-bottom: 25px;
 }
 
-/*.project:last-of-type {
-	margin-bottom: 0;
-}*/
-
 .project-image {
 	border: 1px solid #000;
 	opacity: 0.75;
-/*	-webkit-filter: blur(1px);
-	filter: blur(1px);*/
-	/*-webkit-filter: saturate(1.7) contrast(1);
-	filter: saturate(1.7) contrast(1);*/
 }
 
 .project-image:hover {
@@ -139,7 +131,6 @@ hr {
 
 .project-title {
 	margin-top: 0.4em;
-	/*margin-bottom: 8px;*/
 	word-spacing: 3px;
 }
 
@@ -157,15 +148,11 @@ hr {
 .project-link {
 	display: inline;
 	list-style-type: none;
-	/*padding: 0 1px;*/
 	font-size: 1.1em;
 	line-height: 0;
 }
 
-/*.project-link:first-of-type {
-	border-right: 1px solid #000;
-}*/
-/* 
+/*
 	Vertical bar separator solution learned from Stack Overflow.
 	Separates links (when applicable) on project listings.
  */
@@ -194,7 +181,7 @@ hr {
 	line-height: 0;
 }
 
-.media-icon-item .fa{
+.media-icon-item .fa {
 	color: #676858;
 }
 
@@ -241,14 +228,14 @@ hr {
 		padding-right: 10px;
 		font-size: 1.8em;
 	}
-
-/*	.project-bottom-margin {
-		margin-bottom: 25px;
-	}*/
 }
 
 @media screen and (max-width: 500px) {
 	/* Stack Overflow solution */
+	/*
+		This solution pushes the second sentence in the splash-heading to
+		the next line when the viewport is 500px or less.
+	 */
 	.word-break {
 		word-spacing: 500px;
 		line-height: 1.5em;
@@ -270,54 +257,3 @@ hr {
 		font-size: 3.4em;
 	}
 }
-
-
-
-
-
-/*.bg-image-container {
-	background-image: url(../img/succulent_large_1x.jpg);
-	background-image:
-		-webkit-image-set(
-			"../img/succulent_large_1x.jpg" 1x,
-			"../img/succulent_large_2x.jpg" 2x,
-		);
-	background-image:
-		image-set(
-			"../img/succulent_large_1x.jpg" 1x,
-			"../img/succulent_large_2x.jpg" 2x,
-		);
-	background-size: cover;
-}
-
-@media (max-width: 450px) {
-	.bg-image-container {
-		background-image: url(../img/succulent_small_1x.jpg);
-		background-image:
-			-webkit-image-set(
-				url("../img/succulent_small_1x.jpg") 1x,
-				url("../img/succulent_small_2x.jpg") 2x,
-			);
-		background-image:
-			image-set(
-				url("../img/succulent_small_1x.jpg") 1x,
-				url("../img/succulent_small_2x.jpg") 2x,
-			);
-	}
-}
-
-@media (min-width: 451px) and (max-width: 860px) {
-	.bg-image-container {
-		background-image: url(../img/succulent_medium_1x.jpg);
-		background-image:
-			-webkit-image-set(
-				"../img/succulent_medium_1x.jpg" 1x,
-				"../img/succulent_medium_2x.jpg" 2x,
-			);
-		background-image:
-			image-set(
-				"../img/succulent_medium_1x.jpg" 1x,
-				"../img/succulent_medium_2x.jpg" 2x,
-			);
-	}
-}*/
