@@ -61,7 +61,7 @@ hr {
 
 /* CSS filter use learned from CSS-Tricks */
 .splash-image {
-	opacity: 0.5;
+	opacity: 0.45;
 	-webkit-filter: saturate(1.7) contrast(1);
 	filter: saturate(1.7) contrast(1);
 }
@@ -235,6 +235,11 @@ hr {
 
 	.splash-btn {
 		font-size: 1.2em;
+	}
+
+	.media-icon-item {
+		padding-right: 10px;
+		font-size: 1.8em;
 	}
 
 /*	.project-bottom-margin {
